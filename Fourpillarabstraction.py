@@ -38,7 +38,7 @@ class Birds(Animal):
         return can_fly
 
 
-class Reptile(Animal):
+class Reptiles(Animal):
     def __init__(self, age, weight, species, region_found):
         super().__init__(age, weight, species)
         self.region_found = region_found
